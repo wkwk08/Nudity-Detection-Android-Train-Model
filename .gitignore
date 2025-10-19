@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Objective 1 datasets (ignore images & masks)
+datasets/cs-chan/images/
+datasets/cs-chan/masks/
+datasets/fitzpatrick17k/images/
+datasets/ducnguyen168/
+
+# ignore all image types globally
+*.jpg
+*.jpeg
+*.png
+*.bmp
